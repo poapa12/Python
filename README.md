@@ -1,16 +1,27 @@
-#README pro program na extrakci e-mailových adres z textu
+# SMARTCOOK - 
 
-Popis:
-Tento program je určen k extrakci e-mailových adres z textového řetězce pomocí regulárního výrazu. Program používá standardní formát e-mailové adresy pro vyhledání a extrakci všech e-mailových adres v zadaném textu.
+Tento projekt je webová aplikace určená k prohlížení a vyhledávání receptů na různá jídla. Uživatelé mohou snadno procházet dostupné recepty, filtrovat je podle typu jídla a konkrétních ingrediencí a najít tak inspiraci pro své kulinářské dovednosti.
 
-Jak program funguje:
+## Úvod
 
-Regulární výraz, definovaný v proměnné "email_regex", je použit k nalezení všech řetězců odpovídajících standardnímu formátu e-mailové adresy v zadaném textu.
-Funkce "extract_emails()" vezme text jako vstup a najde pomocí definovaného regulárního výrazu všechny e-mailové adresy v textu.
-Extrahované e-mailové adresy jsou uloženy v proměnné "emails" a jsou vypsány v konzoli pomocí cyklu for a funkce "print()".
+SMARTCOOK vznikl s cílem poskytnout uživatelům snadný a intuitivní způsob pro objevování nových receptů a zkoušení různých pokrmů. Každý recept je prezentován s názvem, typem jídla, seznamem ingrediencí a obrázkem, který pomáhá vizualizovat výsledný pokrm.
 
-Jak používat program:
+## Použité technologie
 
-Stáhněte si soubor s kódem a otevřete ho v prostředí pro vývoj Pythonu.
-Spusťte program a výsledky budou vypsány v konzoli.
-Pokud chcete program použít v rámci svého vlastního kódu, jednoduše zavolejte funkci "extract_emails()" s vlastním textem jako vstupem a získáte tak extrahované e-mailové adresy.
+SMARTCOOJ byl vytvořen pomocí následujících technologií:
+
+- **HTML**: Použito pro strukturu webových stránek.
+- **CSS**: Stylování a design webového rozhraní.
+- **JavaScript**: Programovací jazyk pro interaktivitu a logiku aplikace.
+
+## Struktura projektu
+
+Struktura projektu je následující:
+
+- **dd.html**: Hlavní HTML soubor obsahující strukturu aplikace.
+- **dd.css**: Stylovací soubor definující vzhled a formátování aplikace.
+- **ddd.js**: Skriptovací soubor obsahující logiku a interaktivitu aplikace.
+- **images/**: Složka obsahující obrázky použité v receptech.
+
+
+
